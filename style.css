@@ -40,7 +40,7 @@ a {
 /* top banner */
 .banner {
   max-width: 100vw;
-  height: 6vh;
+  min-height: 7vh;
   background-image: url(./assets/asset\ 30.png);
   background-size: 300px;
   background-color: #4fb3d4;
@@ -92,6 +92,12 @@ a {
 }
 
 /* navbar */
+.logo img{
+  width: 200px;
+}
+.nav-toggle {
+  display: none;
+}
 .navbar {
   display: flex;
   align-items: center;
@@ -128,7 +134,7 @@ a {
   gap: 50px;
 }
 .header-right img {
-  width: 700px;
+  max-width: 100%;
 }
 .header-left p {
   padding: 25px 0;
@@ -136,7 +142,7 @@ a {
 }
 
 /* companies */
-.logo {
+.logor{
   height: 46px;
 }
 .companies-container {
@@ -149,7 +155,7 @@ a {
   padding-bottom: 30px;
 }
 .logos {
-  justify-content: space-between;
+  justify-content:space-between;
   flex-wrap: wrap;
   align-content: start;
 }
@@ -173,6 +179,7 @@ a {
 .featurescard img {
   width: 60px;
 }
+
 .featurescard {
   max-width: 20vw;
   display: flex;
@@ -233,7 +240,7 @@ a {
   color: white;
 }
 .examples a {
-  min-height: 35vh;
+  height: 35vh;
   width: 23%;
   color: var(--primary-text-color);
 }
@@ -298,13 +305,14 @@ footer {
 /* subfooter */
 .subfooter {
   background-color: #b9cde4;
-  height: 7vh;
+  padding: var(--padding-inline-section);
 }
 .subfooter-container {
-  height: 100%;
   align-items: center;
   justify-content: center;
   gap: 30px;
+  flex-wrap: wrap;
+  max-width: 100%;
 }
 .subfooter-container a {
   font-weight: 500;

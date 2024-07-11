@@ -1,0 +1,176 @@
+@media screen and (max-width: 991px) {
+  .nav-toggle {
+    display: block;
+    margin-right: 20px;
+  }
+  .links ul a {
+    display: none;
+  }
+  .featuresarea {
+    flex-direction: column;
+  }
+  .featurescard {
+    max-width: 40vw;
+    height: 40vh;
+  }
+  .cta {
+    padding-block: 80px;
+  }
+  .examples {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .examples a {
+    width: 40%;
+    height: 50vh;
+  }
+  .features-header {
+    padding: 0;
+  }
+  .examples-header {
+    margin-top: 1rem;
+  }
+  .logos {
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    flex-direction: column-reverse;
+  }
+  .header-left {
+    text-align: center;
+  }
+  .header-left a {
+    width: 100%;
+  }
+  .features {
+    background-size: 100%;
+    background-repeat: repeat;
+  }
+  .featurescard {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 60vw;
+  }
+  .featurescard p {
+    font-size: 1.1rem;
+  }
+  .featurescard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  }
+  .bigfeatures {
+    padding-top: 3rem;
+  }
+  .bigfeatures-sections {
+    flex-direction: column;
+  }
+  .examples-section {
+    margin-top: 2rem;
+  }
+  .featuresarea {
+    padding-bottom: 50px;
+  }
+  .examples a {
+    width: 70%;
+    height: 43vh;
+  }
+  .examples a h3 {
+    font-size: 1.2rem;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+  .link-column {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  :root {
+    --padding-inline-section: 10px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .logo img {
+    width: 115px;
+  }
+  .banner {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .navbar {
+    margin-top: 10px;
+  }
+  .header {
+    padding: 45px var(--padding-inline-section) 0;
+    gap: 20px;
+  }
+  .header-left p {
+    font-size: 1rem;
+  }
+  .companies {
+    margin-top: 2rem;
+  }
+  .features-header h2 {
+    font-size: 1.2rem;
+  }
+  .featurescard {
+    gap: 15px;
+    max-width: 70vw;
+    min-height: 10vh;
+    justify-content: center;
+  }
+  .features-header h2 {
+    padding-top: 10px;
+  }
+  .bigfeatures-sections .right p {
+    font-size: 1rem;
+  }
+  .examples a {
+    width: 65%;
+    height: 35vh;
+    box-shadow: 0 4px 6px rgb(0, 0, 0);
+    border-radius: 2px;
+  }
+  .examples a h3 {
+    font-size: 1.2rem;
+  }
+  .cta {
+    padding-block: 50px;
+  }
+  .cta .cta-container p {
+    margin-top: 0px;
+  }
+  footer {
+    padding-block: 40px;
+  }
+  .footer-container {
+    gap: 30px;
+  }
+  .subfooter-container{
+   row-gap: 0;
+    column-gap: 15px;
+  }
+  .examples-header{
+    margin-top: 0;
+  }
+}
